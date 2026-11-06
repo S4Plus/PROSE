@@ -1,0 +1,259 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='utf-8'>
+
+<style>
+body { font-family: 'Noto Sans CJK SC', 'Microsoft YaHei', 'PingFang SC', Arial, sans-serif; line-height: 1.6; margin: 32px; color: #111; }
+img { max-width: 100%; height: auto; }
+table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; }
+h1, h2, h3, h4 { margin-top: 18px; }
+code { font-family: 'JetBrains Mono', 'Consolas', monospace; }
+</style>
+
+</head>
+<body>
+<h1>总结整理</h1>
+<h2>1. 场景</h2>
+<h3>1.1 Real</h3>
+<h4>1.1.1 物料上传送带</h4>
+<p><img alt="Drawing 0" src="./总结整理_media/image1.png" /></p>
+<h4>1.1.2 传送带分拣</h4>
+<p><img alt="Drawing 1" src="./总结整理_media/image2.jpeg" /></p>
+<h4>1.1.3 USB 插拔</h4>
+<p><img alt="Drawing 2" src="./总结整理_media/image3.jpeg" /></p>
+<h4>1.1.4 打螺丝</h4>
+<p><img alt="Drawing 3" src="./总结整理_media/image4.jpeg" /></p>
+<h4>1.1.5 Franka（TODO：确定具体场景）</h4>
+<p><img alt="Drawing 4" src="./总结整理_media/image5.png" /></p>
+<h3>1.2 Sim</h3>
+<h4>1.2.1 实验室仿真：Pick and Place</h4>
+<p><img alt="Drawing 5" src="./总结整理_media/image6.png" /></p>
+<h4>1.2.2 MimicGen</h4>
+<ul>
+<li>官网：https://mimicgen.github.io/</li>
+<li>解析见文档：https://wcnf1f6181n8.feishu.cn/docx/XkjQdU1nIoD7TRxRlxZc0WxXnog</li>
+</ul>
+<h5>1.2.2.1 square_d1</h5>
+<p><img alt="Drawing 6" src="./总结整理_media/image7.png" /></p>
+<h5>1.2.2.2 hammer_cleanup</h5>
+<p><img alt="Drawing 7" src="./总结整理_media/image8.png" /></p>
+<h4>1.2.3 LIBERO</h4>
+<ul>
+<li>官网：https://libero-project.github.io/main.html</li>
+</ul>
+<p><img alt="Drawing 8" src="./总结整理_media/image9.png" /></p>
+<h2>2. 相关工作</h2>
+<ul>
+<li>行为克隆与序列建模：以 ACT 为代表的动作块预测方法用于高维控制与长时序依赖建模。</li>
+<li>生成式策略：扩散类策略在 imitation learning 中常用于提升多模态动作分布建模能力。</li>
+<li>数据质量与筛选：基于影响函数或回报加权的样本贡献估计，用于过滤低质量轨迹或重加权高价值样本。</li>
+</ul>
+<h2>3. 方法</h2>
+<p>数据均以 LeRobot 格式保存。</p>
+<h3>3.1 框架图</h3>
+<p><img alt="Drawing 9" src="./总结整理_media/image10.png" /></p>
+<h3>3.2 基于的模型</h3>
+<h4>3.2.1 ACT 模型介绍</h4>
+<p>ACT 用于预测动作块 $\mathbf{a}_{t:t+k}$，核心思想是把长时序控制拆解为“观测条件下的短动作序列预测”。典型实现包含以下模块：</p>
+<ul>
+<li>观测编码：将图像/状态等观测编码为特征表示。</li>
+<li>序列建模：使用 Transformer 等序列模型融合历史观测与当前上下文。</li>
+<li>动作块预测：直接回归未来 $k$ 步的动作块，形成 receding horizon 的执行方式。</li>
+<li>多模态建模（可选）：引入潜变量 $z$ 捕获多模态动作分布，在评估/影响函数中对 $z$ 或 action 进行噪声注入以提升稳健性。</li>
+<li>训练目标：行为克隆损失为主（如 L1/Huber 等），对应本文后续的梯度与影响函数计算。</li>
+</ul>
+<p><img alt="Drawing 11" src="./总结整理_media/act.png" /></p>
+<h4>3.2.2 泛化性与跨模型适配</h4>
+<p>泛化性体现方式：通过多任务数据、数据增强、以及影响函数驱动的数据筛选提升跨场景迁移能力。在模型层面，CUPID-ACT 的影响函数流程可以迁移到其他策略模型，核心条件是“可微训练损失 + 可计算梯度/HVP”。适配步骤如下：</p>
+<ul>
+<li>替换策略模型：将 ACTPolicy 替换为目标模型（如 BC-Transformer、RNN/GRU、Diffusion Policy、VLA 等）。</li>
+<li>明确训练损失：使用该模型的标准训练目标（如 L1/Huber、负对数似然或扩散损失）作为 $\mathcal{L}_{train}$。</li>
+<li>保持评估损失一致性：评估阶段使用与训练兼容的损失（如伪 Huber）以稳定 HVP 与 LiSSA。</li>
+<li>统一数据接口：保持 LeRobot 数据格式与动作块/时序窗口的一致性，确保梯度可对齐到同一参数空间。</li>
+<li>噪声注入位置适配：若模型包含潜变量或采样过程（如扩散或 VAE），将噪声注入到对应的采样路径或动作目标。</li>
+</ul>
+<p>上述适配不依赖特定网络结构，主要依赖梯度可得性与损失的一致性，因此可作为跨模型的通用数据筛选策略。</p>
+<h3>3.3 核心算法</h3>
+<h4>3.3.1 阶段一：影子训练与梯度缓存（Shadow Training）</h4>
+<ul>
+<li>影子训练：正常训练 ACT 策略 $\pi_{\theta^*}$ 直到收敛，得到与主模型同构的影子权重。</li>
+<li>梯度预计算：遍历训练数据集 $\mathcal{D}<em>{train}={d_i}$，对每个样本 $d_i=(\mathbf{o}_i,\mathbf{a}</em>{i:i+k})$ 计算 L1 训练损失的梯度 $\nabla_\theta \mathcal{L}_{train}(d_i)$，并将其缓存。</li>
+<li>随机投影降维：若完整梯度维度为 $D$，使用随机投影矩阵 $P\in \mathbb{R}^{D \times M}$（例如 $M=4096$）得到压缩梯度 $P^\top \nabla_\theta \mathcal{L}_{train}(d_i)$，降低梯度缓存开销。</li>
+</ul>
+<h4>3.3.2 阶段二：混合评估与回报采集（Hybrid Evaluation）</h4>
+<ul>
+<li>Rollout 收集：在仿真或真实机器人中运行 $N$ 次评估 rollout，记录观察 $\mathbf{o}<em>t$、潜变量采样 $\mathbf{z}_t$ 以及执行的动作块 $\mathbf{a}</em>{t:t+k}$。</li>
+<li>噪声注入：当前实现仅在评估梯度阶段对 <code>action</code> 目标加入高斯噪声（默认 $\sigma=0.1$），用于提升估计稳健性并增强探索覆盖。若需要对潜变量 $z_t$ 加噪，需要在 ACTPolicy 前向推理中显式注入。</li>
+<li>回报记录：为每条轨迹 $\tau$ 存储最终任务回报 $R(\tau)$，用于后续的回报梯度加权。</li>
+</ul>
+<h4>3.3.3 阶段三：基于伪 Huber 的影响力计算（Influence Computation）</h4>
+<ul>
+<li>回报梯度构建：使用回报中心化加权</li>
+</ul>
+<p>[
+\hat{g}<em>{\text{return}}=\frac{1}{N}\sum</em>{\tau}(R(\tau)-\bar{R})\sum_{t\in\tau}\nabla_{\theta}\,\mathcal{L}<em>{\text{PH}}(\mathbf{o}_t,\mathbf{a}</em>{t:t+k})
+]</p>
+<p>其中 $\mathcal{L}_{\text{PH}}$ 为评估过程中使用的伪 Huber 损失。</p>
+<ul>
+<li>
+<p>LiSSA 逆海森向量积：通过 LiSSA（Linear-time Stochastic Second-Order Algorithm）求解 $s = H^{-1}\hat{g}_{\text{return}}$。每一步 HVP 计算均使用伪 Huber 损失，以避免与 ACT 结构不兼容的问题。</p>
+</li>
+<li>
+<p>影响值：对每个训练样本 $d_i$ 计算</p>
+</li>
+</ul>
+<p>[
+\text{Influence}(d_i)=-\nabla_\theta \mathcal{L}_{train}(d_i)^\top s
+]</p>
+<p>该值衡量训练样本对评估回报的正负影响。</p>
+<h4>3.3.4 阶段四：数据筛选与再训练（Curation &amp; Retraining）</h4>
+<ul>
+<li>聚合：将 state-action 对的分数聚合为轨迹分数（如均值或加权均值），用于筛选与重加权。</li>
+<li>排序：根据 $\text{Influence}(d_i)$ 对训练数据排序。正值代表样本提升策略表现，负值代表样本造成性能下降。</li>
+<li>筛除与重加权：</li>
+<li>过滤策略：移除排名后 10%–30% 的负影响样本，缓解死锁、碰撞等失败案例的干扰。</li>
+<li>选择策略：对排名前若干百分比的高影响样本进行过采样或加权，增强成功轨迹贡献。</li>
+<li>再训练：在完成数据筛选后，使用更新后的数据分布重新训练 ACT 策略，并重复评估以验证收益。</li>
+</ul>
+<p>以上流程为 <code>act/</code> 目录下影响函数实现的参考标准，可直接映射到 <code>train_trak_act.py</code> 与 <code>act/scoring_utils.py</code> 中的梯度缓存、LiSSA 估计及数据筛选逻辑。</p>
+<h2>4. 现有结果</h2>
+<p>均在 LeRobot 框架下的 ACT 模型测试，其中 <code>batch_size=32</code>，<code>steps=100k</code>。</p>
+<h3>4.1 数据筛选对比实验（ACT / CUPID-ACT / Random）</h3>
+<p>数据量占比与样本数：100%(400)、80%(320)、50%(200)、20%(80)。</p>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>100%(400)</th>
+<th>80%(320)</th>
+<th>50%(200)</th>
+<th>20%(80)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ACT</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>CUPID-ACT(0.01)</td>
+<td>93%</td>
+<td>98%</td>
+<td>95%</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>CUPID-ACT(0.001)</td>
+<td>93%</td>
+<td>97%</td>
+<td>84%</td>
+<td>88%</td>
+</tr>
+<tr>
+<td>random（Seed A/Seed B）</td>
+<td>93%</td>
+<td>62%/95%</td>
+<td>77%/92%</td>
+<td>78%/53%</td>
+</tr>
+</tbody>
+</table>
+<p>注：random 两个数值表示不同随机种子结果；100%(400) 仅记录一个种子。</p>
+<p>分析：
+- CUPID-ACT 在中低数据量下整体优于随机采样，尤其是 80% 与 50% 数据量时表现更稳定。
+- <code>0.01</code> 与 <code>0.001</code> 两个权重整体趋势相近，但在 20% 数据量时差异明显（<code>0.001</code> 更高），说明低数据量下超参更敏感。
+- random 行出现两组结果（如 <code>62%/95%</code>），说明不同随机种子差异很大，随机采样方差较高。TODO：补充更多随机种子并报告均值与方差。</p>
+<h3>4.2 square_d1</h3>
+<table>
+<thead>
+<tr>
+<th>数据量</th>
+<th>成功率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1000</td>
+<td>31.8%</td>
+</tr>
+<tr>
+<td>800</td>
+<td>22.7%</td>
+</tr>
+<tr>
+<td>800+200</td>
+<td>36.4%</td>
+</tr>
+</tbody>
+</table>
+<p>数据来源：+200为使用采样方案额外采集的200条数据
+分析：<code>800+200</code> 的成功率最高；纯 800 下降明显，说明样本数量或样本质量对该任务影响较大。建议明确 <code>+200</code> 的来源（新增数据或筛选重采样），并与筛选策略关联分析。</p>
+<h3>4.3 hammer_cleanup_d0</h3>
+<table>
+<thead>
+<tr>
+<th>数据量</th>
+<th>成功率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1000</td>
+<td>97.7%</td>
+</tr>
+<tr>
+<td>800</td>
+<td>93.8%</td>
+</tr>
+<tr>
+<td>600</td>
+<td>93.4%</td>
+</tr>
+<tr>
+<td>400</td>
+<td>93.0%</td>
+</tr>
+<tr>
+<td>200</td>
+<td>97.7%</td>
+</tr>
+</tbody>
+</table>
+<p>分析：整体成功率接近饱和，数据量变化对性能影响较小，可能说明任务相对简单或评估方差较大。建议增加多次评估并报告均值与方差，以确认趋势稳定性。</p>
+<h3>4.4 hammer_cleanup_d1</h3>
+<table>
+<thead>
+<tr>
+<th>数据量</th>
+<th>成功率</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1000</td>
+<td>34.7%</td>
+</tr>
+</tbody>
+</table>
+<p>分析：成功率偏低，需确认是否存在分布偏移或任务更难的情况，可通过增加数据量、引入筛选策略或调参验证提升空间。</p>
+<h3>4.5 总体分析</h3>
+<ul>
+<li>筛选/重加权方法在中低数据量段更能体现优势，随机采样方差较大，建议统一评估种子并报告均值与方差。</li>
+<li><code>hammer_cleanup_d0</code> 接近饱和，说明任务上限较高或评估集偏易；应关注更困难分布（如 <code>d1</code>）以检验方法有效性。</li>
+<li><code>square_d1</code> 结果对样本质量较敏感，建议明确 <code>800+200</code> 的数据来源并对筛选策略做消融对比。</li>
+<li>目前缺少同设置的 ACT 基线与多次重复实验，限制了对 CUPID-ACT 绝对增益和稳定性的结论力度。</li>
+</ul>
+<h2>5. TODO</h2>
+<ul>
+<li>确定 Franka 的具体场景与任务说明。</li>
+<li>补充在不同场景下的测试结果验证泛化性</li>
+<li>补充筛选的数据用于其他模型训练的结果：验证此方法筛选的数据是否可以有效利用到VLA模型中</li>
+<li>补充 random 的更多随机种子结果，并整理为均值±方差。</li>
+</ul>
+</body>
+</html>

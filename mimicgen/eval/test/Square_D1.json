@@ -1,0 +1,479 @@
+{
+  "env_name": "Square_D1",
+  "reference": [
+    0.0,
+    0.0,
+    0.82
+  ],
+  "units": {
+    "position": "m",
+    "angle": "rad"
+  },
+  "seed": 2026,
+  "step": 0.05,
+  "include_boundary": true,
+  "bounds": {
+    "nut": {
+      "x": [
+        -0.25,
+        -0.15
+      ],
+      "y": [
+        -0.25,
+        0.25
+      ],
+      "z_rot": [
+        0.0,
+        0.0
+      ],
+      "rotation_axis": "z"
+    }
+  },
+  "counts": {
+    "grid": 20,
+    "boundary": 24,
+    "total": 44
+  },
+  "cases": [
+    {
+      "id": 0,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": -0.225,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 1,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": -0.175,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 2,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": -0.12499999999999999,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 3,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": -0.07499999999999998,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 4,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": -0.02499999999999998,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 5,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": 0.025000000000000022,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 6,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": 0.07500000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 7,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": 0.12500000000000003,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 8,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": 0.17500000000000004,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 9,
+      "tag": "grid",
+      "nut": {
+        "x": -0.225,
+        "y": 0.22500000000000003,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 10,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": -0.225,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 11,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": -0.175,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 12,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": -0.12499999999999999,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 13,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": -0.07499999999999998,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 14,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": -0.02499999999999998,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 15,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": 0.025000000000000022,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 16,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": 0.07500000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 17,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": 0.12500000000000003,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 18,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": 0.17500000000000004,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 19,
+      "tag": "grid",
+      "nut": {
+        "x": -0.175,
+        "y": 0.22500000000000003,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 20,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": -0.25,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 21,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": 0.25,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 22,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.2,
+        "y": -0.25,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 23,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.2,
+        "y": 0.25,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 24,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15000000000000002,
+        "y": -0.25,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 25,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15000000000000002,
+        "y": 0.25,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 26,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": -0.2,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 27,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": -0.2,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 28,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": -0.15000000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 29,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": -0.15000000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 30,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": -0.10000000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 31,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": -0.10000000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 32,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": -0.05000000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 33,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": -0.05000000000000002,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 34,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": -1.3877787807814457e-17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 35,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": -1.3877787807814457e-17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 36,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": 0.04999999999999999,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 37,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": 0.04999999999999999,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 38,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": 0.09999999999999999,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 39,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": 0.09999999999999999,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 40,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": 0.15,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 41,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": 0.15,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 42,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.25,
+        "y": 0.2,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 43,
+      "tag": "boundary",
+      "nut": {
+        "x": -0.15,
+        "y": 0.2,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    }
+  ]
+}

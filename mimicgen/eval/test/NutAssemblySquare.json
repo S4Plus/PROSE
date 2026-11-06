@@ -1,0 +1,499 @@
+{
+  "env_name": "NutAssemblySquare",
+  "reference": [
+    0.0,
+    0.0,
+    0.82
+  ],
+  "units": {
+    "position": "m",
+    "angle": "rad"
+  },
+  "seed": 2026,
+  "step": 0.008,
+  "include_boundary": true,
+  "bounds": {
+    "square": {
+      "x": [
+        -0.115,
+        -0.11
+      ],
+      "y": [
+        0.11,
+        0.225
+      ],
+      "z_rot": [
+        0.0,
+        0.0
+      ],
+      "rotation_axis": "z"
+    }
+  },
+  "cases": [
+    {
+      "id": 0,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.114,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 1,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.122,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 2,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.13,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 3,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.138,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 4,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.146,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 5,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.154,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 6,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.162,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 7,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 8,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.178,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 9,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.186,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 10,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.194,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 11,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.202,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 12,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.21,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 13,
+      "tag": "grid",
+      "square": {
+        "x": -0.111,
+        "y": 0.218,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 14,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.11,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 15,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.225,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 16,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.11,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 17,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.225,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 18,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.118,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 19,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.118,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 20,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.126,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 21,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.126,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 22,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.134,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 23,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.134,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 24,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.142,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 25,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.142,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 26,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.15,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 27,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.15,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 28,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.158,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 29,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.158,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 30,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.166,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 31,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.166,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 32,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.174,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 33,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.174,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 34,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.182,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 35,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.182,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 36,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.19,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 37,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.19,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 38,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.198,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 39,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.198,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 40,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.206,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 41,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.206,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 42,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.214,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 43,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.214,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 44,
+      "tag": "boundary",
+      "square": {
+        "x": -0.115,
+        "y": 0.222,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 45,
+      "tag": "boundary",
+      "square": {
+        "x": -0.11,
+        "y": 0.222,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    }
+  ],
+  "counts": {
+    "grid": 14,
+    "boundary": 32,
+    "total": 46
+  }
+}

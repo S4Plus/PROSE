@@ -1,0 +1,1411 @@
+{
+  "fps": 20.0,
+  "frames": [
+    {
+      "frame_index": 0,
+      "objects": []
+    },
+    {
+      "frame_index": 1,
+      "objects": []
+    },
+    {
+      "frame_index": 2,
+      "objects": []
+    },
+    {
+      "frame_index": 3,
+      "objects": []
+    },
+    {
+      "frame_index": 4,
+      "objects": []
+    },
+    {
+      "frame_index": 5,
+      "objects": []
+    },
+    {
+      "frame_index": 6,
+      "objects": []
+    },
+    {
+      "frame_index": 7,
+      "objects": []
+    },
+    {
+      "frame_index": 8,
+      "objects": []
+    },
+    {
+      "frame_index": 9,
+      "objects": []
+    },
+    {
+      "frame_index": 10,
+      "objects": []
+    },
+    {
+      "frame_index": 11,
+      "objects": []
+    },
+    {
+      "frame_index": 12,
+      "objects": []
+    },
+    {
+      "frame_index": 13,
+      "objects": []
+    },
+    {
+      "frame_index": 14,
+      "objects": []
+    },
+    {
+      "frame_index": 15,
+      "objects": []
+    },
+    {
+      "frame_index": 16,
+      "objects": []
+    },
+    {
+      "frame_index": 17,
+      "objects": []
+    },
+    {
+      "frame_index": 18,
+      "objects": []
+    },
+    {
+      "frame_index": 19,
+      "objects": []
+    },
+    {
+      "frame_index": 20,
+      "objects": []
+    },
+    {
+      "frame_index": 21,
+      "objects": []
+    },
+    {
+      "frame_index": 22,
+      "objects": []
+    },
+    {
+      "frame_index": 23,
+      "objects": []
+    },
+    {
+      "frame_index": 24,
+      "objects": []
+    },
+    {
+      "frame_index": 25,
+      "objects": []
+    },
+    {
+      "frame_index": 26,
+      "objects": []
+    },
+    {
+      "frame_index": 27,
+      "objects": []
+    },
+    {
+      "frame_index": 28,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            15.412317276000977,
+            0.0,
+            70.24067687988281,
+            34.74702453613281
+          ],
+          "score": 0.29125088453292847
+        }
+      ]
+    },
+    {
+      "frame_index": 29,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            15.824989318847656,
+            0.0,
+            70.80697631835938,
+            34.7380256652832
+          ],
+          "score": 0.3924840986728668
+        }
+      ]
+    },
+    {
+      "frame_index": 30,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            16.80217742919922,
+            0.000232696533203125,
+            70.69861602783203,
+            35.185821533203125
+          ],
+          "score": 0.4663925766944885
+        }
+      ]
+    },
+    {
+      "frame_index": 31,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            17.762176513671875,
+            0.0,
+            71.02409362792969,
+            34.363040924072266
+          ],
+          "score": 0.4098448157310486
+        }
+      ]
+    },
+    {
+      "frame_index": 32,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            17.483154296875,
+            0.0,
+            71.02104187011719,
+            32.996055603027344
+          ],
+          "score": 0.30577757954597473
+        }
+      ]
+    },
+    {
+      "frame_index": 33,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            19.812835693359375,
+            0.13496780395507812,
+            71.33440399169922,
+            38.47982406616211
+          ],
+          "score": 0.36985835433006287
+        }
+      ]
+    },
+    {
+      "frame_index": 34,
+      "objects": []
+    },
+    {
+      "frame_index": 35,
+      "objects": []
+    },
+    {
+      "frame_index": 36,
+      "objects": []
+    },
+    {
+      "frame_index": 37,
+      "objects": []
+    },
+    {
+      "frame_index": 38,
+      "objects": []
+    },
+    {
+      "frame_index": 39,
+      "objects": []
+    },
+    {
+      "frame_index": 40,
+      "objects": []
+    },
+    {
+      "frame_index": 41,
+      "objects": []
+    },
+    {
+      "frame_index": 42,
+      "objects": []
+    },
+    {
+      "frame_index": 43,
+      "objects": []
+    },
+    {
+      "frame_index": 44,
+      "objects": []
+    },
+    {
+      "frame_index": 45,
+      "objects": []
+    },
+    {
+      "frame_index": 46,
+      "objects": []
+    },
+    {
+      "frame_index": 47,
+      "objects": []
+    },
+    {
+      "frame_index": 48,
+      "objects": []
+    },
+    {
+      "frame_index": 49,
+      "objects": []
+    },
+    {
+      "frame_index": 50,
+      "objects": []
+    },
+    {
+      "frame_index": 51,
+      "objects": []
+    },
+    {
+      "frame_index": 52,
+      "objects": []
+    },
+    {
+      "frame_index": 53,
+      "objects": []
+    },
+    {
+      "frame_index": 54,
+      "objects": []
+    },
+    {
+      "frame_index": 55,
+      "objects": []
+    },
+    {
+      "frame_index": 56,
+      "objects": []
+    },
+    {
+      "frame_index": 57,
+      "objects": []
+    },
+    {
+      "frame_index": 58,
+      "objects": []
+    },
+    {
+      "frame_index": 59,
+      "objects": []
+    },
+    {
+      "frame_index": 60,
+      "objects": []
+    },
+    {
+      "frame_index": 61,
+      "objects": []
+    },
+    {
+      "frame_index": 62,
+      "objects": []
+    },
+    {
+      "frame_index": 63,
+      "objects": []
+    },
+    {
+      "frame_index": 64,
+      "objects": []
+    },
+    {
+      "frame_index": 65,
+      "objects": []
+    },
+    {
+      "frame_index": 66,
+      "objects": []
+    },
+    {
+      "frame_index": 67,
+      "objects": []
+    },
+    {
+      "frame_index": 68,
+      "objects": []
+    },
+    {
+      "frame_index": 69,
+      "objects": []
+    },
+    {
+      "frame_index": 70,
+      "objects": []
+    },
+    {
+      "frame_index": 71,
+      "objects": []
+    },
+    {
+      "frame_index": 72,
+      "objects": []
+    },
+    {
+      "frame_index": 73,
+      "objects": []
+    },
+    {
+      "frame_index": 74,
+      "objects": []
+    },
+    {
+      "frame_index": 75,
+      "objects": []
+    },
+    {
+      "frame_index": 76,
+      "objects": []
+    },
+    {
+      "frame_index": 77,
+      "objects": []
+    },
+    {
+      "frame_index": 78,
+      "objects": []
+    },
+    {
+      "frame_index": 79,
+      "objects": []
+    },
+    {
+      "frame_index": 80,
+      "objects": []
+    },
+    {
+      "frame_index": 81,
+      "objects": []
+    },
+    {
+      "frame_index": 82,
+      "objects": []
+    },
+    {
+      "frame_index": 83,
+      "objects": []
+    },
+    {
+      "frame_index": 84,
+      "objects": []
+    },
+    {
+      "frame_index": 85,
+      "objects": []
+    },
+    {
+      "frame_index": 86,
+      "objects": []
+    },
+    {
+      "frame_index": 87,
+      "objects": []
+    },
+    {
+      "frame_index": 88,
+      "objects": []
+    },
+    {
+      "frame_index": 89,
+      "objects": []
+    },
+    {
+      "frame_index": 90,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            19.075538635253906,
+            0.011013031005859375,
+            68.76728820800781,
+            48.927085876464844
+          ],
+          "score": 0.4664887487888336
+        }
+      ]
+    },
+    {
+      "frame_index": 91,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            18.78960418701172,
+            0.00614166259765625,
+            68.95833587646484,
+            46.64191436767578
+          ],
+          "score": 0.5237467288970947
+        }
+      ]
+    },
+    {
+      "frame_index": 92,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            17.633682250976562,
+            0.0075531005859375,
+            68.95985412597656,
+            44.32420349121094
+          ],
+          "score": 0.5536266565322876
+        }
+      ]
+    },
+    {
+      "frame_index": 93,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            17.15996551513672,
+            0.0,
+            69.20587158203125,
+            42.25830841064453
+          ],
+          "score": 0.4158983826637268
+        }
+      ]
+    },
+    {
+      "frame_index": 94,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            17.250160217285156,
+            0.0,
+            69.3699722290039,
+            40.80428695678711
+          ],
+          "score": 0.6206125020980835
+        }
+      ]
+    },
+    {
+      "frame_index": 95,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            15.749753952026367,
+            0.0,
+            69.79324340820312,
+            38.87761688232422
+          ],
+          "score": 0.5205770134925842
+        }
+      ]
+    },
+    {
+      "frame_index": 96,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            14.713592529296875,
+            0.0,
+            69.59288024902344,
+            34.90818786621094
+          ],
+          "score": 0.5879402160644531
+        }
+      ]
+    },
+    {
+      "frame_index": 97,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            13.630897521972656,
+            0.0,
+            69.33154296875,
+            33.11505126953125
+          ],
+          "score": 0.33028945326805115
+        }
+      ]
+    },
+    {
+      "frame_index": 98,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            13.442802429199219,
+            0.0,
+            69.35025024414062,
+            32.23234176635742
+          ],
+          "score": 0.3083744943141937
+        }
+      ]
+    },
+    {
+      "frame_index": 99,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            13.343528747558594,
+            0.0,
+            69.4846420288086,
+            30.90239143371582
+          ],
+          "score": 0.2724389135837555
+        }
+      ]
+    },
+    {
+      "frame_index": 100,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            12.355607986450195,
+            0.0,
+            69.6436767578125,
+            29.52169418334961
+          ],
+          "score": 0.4745940864086151
+        }
+      ]
+    },
+    {
+      "frame_index": 101,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            10.536409378051758,
+            0.0,
+            69.72651672363281,
+            28.40663719177246
+          ],
+          "score": 0.3632979691028595
+        }
+      ]
+    },
+    {
+      "frame_index": 102,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            8.998092651367188,
+            0.0,
+            69.84707641601562,
+            27.74456214904785
+          ],
+          "score": 0.42799612879753113
+        }
+      ]
+    },
+    {
+      "frame_index": 103,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            7.388786315917969,
+            0.0,
+            70.12559509277344,
+            27.10663604736328
+          ],
+          "score": 0.5010091066360474
+        }
+      ]
+    },
+    {
+      "frame_index": 104,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            8.117166519165039,
+            0.0,
+            70.07180786132812,
+            26.77207374572754
+          ],
+          "score": 0.47302690148353577
+        }
+      ]
+    },
+    {
+      "frame_index": 105,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            9.035499572753906,
+            0.0,
+            70.04920959472656,
+            26.129335403442383
+          ],
+          "score": 0.4618420898914337
+        }
+      ]
+    },
+    {
+      "frame_index": 106,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            9.406471252441406,
+            0.0,
+            70.16102600097656,
+            25.85657501220703
+          ],
+          "score": 0.48934897780418396
+        }
+      ]
+    },
+    {
+      "frame_index": 107,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            9.958288192749023,
+            0.0,
+            70.22311401367188,
+            25.835336685180664
+          ],
+          "score": 0.5415016412734985
+        }
+      ]
+    },
+    {
+      "frame_index": 108,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            12.921073913574219,
+            0.0,
+            70.28277587890625,
+            25.258636474609375
+          ],
+          "score": 0.5071645975112915
+        }
+      ]
+    },
+    {
+      "frame_index": 109,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            8.710868835449219,
+            0.0,
+            70.19314575195312,
+            25.718528747558594
+          ],
+          "score": 0.48318079113960266
+        }
+      ]
+    },
+    {
+      "frame_index": 110,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            7.893287658691406,
+            0.0,
+            70.18719482421875,
+            26.338701248168945
+          ],
+          "score": 0.5569430589675903
+        }
+      ]
+    },
+    {
+      "frame_index": 111,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            2.6235427856445312,
+            0.0,
+            70.29595184326172,
+            26.679759979248047
+          ],
+          "score": 0.46618223190307617
+        }
+      ]
+    },
+    {
+      "frame_index": 112,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            4.6470947265625,
+            0.0,
+            70.61380004882812,
+            27.295085906982422
+          ],
+          "score": 0.41306206583976746
+        }
+      ]
+    },
+    {
+      "frame_index": 113,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            0.7777023315429688,
+            0.009792327880859375,
+            70.22413635253906,
+            28.078432083129883
+          ],
+          "score": 0.32884201407432556
+        }
+      ]
+    },
+    {
+      "frame_index": 114,
+      "objects": []
+    },
+    {
+      "frame_index": 115,
+      "objects": []
+    },
+    {
+      "frame_index": 116,
+      "objects": []
+    },
+    {
+      "frame_index": 117,
+      "objects": []
+    },
+    {
+      "frame_index": 118,
+      "objects": []
+    },
+    {
+      "frame_index": 119,
+      "objects": []
+    },
+    {
+      "frame_index": 120,
+      "objects": []
+    },
+    {
+      "frame_index": 121,
+      "objects": []
+    },
+    {
+      "frame_index": 122,
+      "objects": []
+    },
+    {
+      "frame_index": 123,
+      "objects": []
+    },
+    {
+      "frame_index": 124,
+      "objects": []
+    },
+    {
+      "frame_index": 125,
+      "objects": []
+    },
+    {
+      "frame_index": 126,
+      "objects": []
+    },
+    {
+      "frame_index": 127,
+      "objects": []
+    },
+    {
+      "frame_index": 128,
+      "objects": []
+    },
+    {
+      "frame_index": 129,
+      "objects": []
+    },
+    {
+      "frame_index": 130,
+      "objects": []
+    },
+    {
+      "frame_index": 131,
+      "objects": []
+    },
+    {
+      "frame_index": 132,
+      "objects": []
+    },
+    {
+      "frame_index": 133,
+      "objects": []
+    },
+    {
+      "frame_index": 134,
+      "objects": []
+    },
+    {
+      "frame_index": 135,
+      "objects": []
+    },
+    {
+      "frame_index": 136,
+      "objects": []
+    },
+    {
+      "frame_index": 137,
+      "objects": []
+    },
+    {
+      "frame_index": 138,
+      "objects": []
+    },
+    {
+      "frame_index": 139,
+      "objects": []
+    },
+    {
+      "frame_index": 140,
+      "objects": []
+    },
+    {
+      "frame_index": 141,
+      "objects": []
+    },
+    {
+      "frame_index": 142,
+      "objects": []
+    },
+    {
+      "frame_index": 143,
+      "objects": []
+    },
+    {
+      "frame_index": 144,
+      "objects": []
+    },
+    {
+      "frame_index": 145,
+      "objects": []
+    },
+    {
+      "frame_index": 146,
+      "objects": []
+    },
+    {
+      "frame_index": 147,
+      "objects": []
+    },
+    {
+      "frame_index": 148,
+      "objects": []
+    },
+    {
+      "frame_index": 149,
+      "objects": []
+    },
+    {
+      "frame_index": 150,
+      "objects": []
+    },
+    {
+      "frame_index": 151,
+      "objects": []
+    },
+    {
+      "frame_index": 152,
+      "objects": []
+    },
+    {
+      "frame_index": 153,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            0.3330078125,
+            0.040134429931640625,
+            70.29518127441406,
+            38.630950927734375
+          ],
+          "score": 0.2730817198753357
+        }
+      ]
+    },
+    {
+      "frame_index": 154,
+      "objects": []
+    },
+    {
+      "frame_index": 155,
+      "objects": []
+    },
+    {
+      "frame_index": 156,
+      "objects": []
+    },
+    {
+      "frame_index": 157,
+      "objects": []
+    },
+    {
+      "frame_index": 158,
+      "objects": []
+    },
+    {
+      "frame_index": 159,
+      "objects": []
+    },
+    {
+      "frame_index": 160,
+      "objects": []
+    },
+    {
+      "frame_index": 161,
+      "objects": []
+    },
+    {
+      "frame_index": 162,
+      "objects": []
+    },
+    {
+      "frame_index": 163,
+      "objects": []
+    },
+    {
+      "frame_index": 164,
+      "objects": []
+    },
+    {
+      "frame_index": 165,
+      "objects": []
+    },
+    {
+      "frame_index": 166,
+      "objects": []
+    },
+    {
+      "frame_index": 167,
+      "objects": []
+    },
+    {
+      "frame_index": 168,
+      "objects": []
+    },
+    {
+      "frame_index": 169,
+      "objects": []
+    },
+    {
+      "frame_index": 170,
+      "objects": []
+    },
+    {
+      "frame_index": 171,
+      "objects": []
+    },
+    {
+      "frame_index": 172,
+      "objects": []
+    },
+    {
+      "frame_index": 173,
+      "objects": []
+    },
+    {
+      "frame_index": 174,
+      "objects": []
+    },
+    {
+      "frame_index": 175,
+      "objects": []
+    },
+    {
+      "frame_index": 176,
+      "objects": []
+    },
+    {
+      "frame_index": 177,
+      "objects": []
+    },
+    {
+      "frame_index": 178,
+      "objects": []
+    },
+    {
+      "frame_index": 179,
+      "objects": []
+    },
+    {
+      "frame_index": 180,
+      "objects": []
+    },
+    {
+      "frame_index": 181,
+      "objects": []
+    },
+    {
+      "frame_index": 182,
+      "objects": []
+    },
+    {
+      "frame_index": 183,
+      "objects": []
+    },
+    {
+      "frame_index": 184,
+      "objects": [
+        {
+          "label": "hole",
+          "bbox": [
+            14.454389572143555,
+            0.04732322692871094,
+            71.00506591796875,
+            18.694917678833008
+          ],
+          "score": 0.43243643641471863
+        }
+      ]
+    },
+    {
+      "frame_index": 185,
+      "objects": []
+    },
+    {
+      "frame_index": 186,
+      "objects": []
+    },
+    {
+      "frame_index": 187,
+      "objects": []
+    },
+    {
+      "frame_index": 188,
+      "objects": []
+    },
+    {
+      "frame_index": 189,
+      "objects": []
+    },
+    {
+      "frame_index": 190,
+      "objects": []
+    },
+    {
+      "frame_index": 191,
+      "objects": []
+    },
+    {
+      "frame_index": 192,
+      "objects": []
+    },
+    {
+      "frame_index": 193,
+      "objects": []
+    },
+    {
+      "frame_index": 194,
+      "objects": []
+    },
+    {
+      "frame_index": 195,
+      "objects": []
+    },
+    {
+      "frame_index": 196,
+      "objects": []
+    },
+    {
+      "frame_index": 197,
+      "objects": []
+    },
+    {
+      "frame_index": 198,
+      "objects": []
+    },
+    {
+      "frame_index": 199,
+      "objects": []
+    },
+    {
+      "frame_index": 200,
+      "objects": []
+    },
+    {
+      "frame_index": 201,
+      "objects": []
+    },
+    {
+      "frame_index": 202,
+      "objects": []
+    },
+    {
+      "frame_index": 203,
+      "objects": []
+    },
+    {
+      "frame_index": 204,
+      "objects": []
+    },
+    {
+      "frame_index": 205,
+      "objects": []
+    },
+    {
+      "frame_index": 206,
+      "objects": []
+    },
+    {
+      "frame_index": 207,
+      "objects": []
+    },
+    {
+      "frame_index": 208,
+      "objects": []
+    },
+    {
+      "frame_index": 209,
+      "objects": []
+    },
+    {
+      "frame_index": 210,
+      "objects": []
+    },
+    {
+      "frame_index": 211,
+      "objects": []
+    },
+    {
+      "frame_index": 212,
+      "objects": []
+    },
+    {
+      "frame_index": 213,
+      "objects": []
+    },
+    {
+      "frame_index": 214,
+      "objects": []
+    },
+    {
+      "frame_index": 215,
+      "objects": []
+    },
+    {
+      "frame_index": 216,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            0.019128799438476562,
+            0.23900985717773438,
+            22.4365291595459,
+            44.29083251953125
+          ],
+          "score": 0.3666653633117676
+        }
+      ]
+    },
+    {
+      "frame_index": 217,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            0.006435394287109375,
+            0.22299957275390625,
+            22.483692169189453,
+            43.950340270996094
+          ],
+          "score": 0.3389820456504822
+        },
+        {
+          "label": "hole",
+          "bbox": [
+            19.207231521606445,
+            0.0062198638916015625,
+            70.71617126464844,
+            18.54924201965332
+          ],
+          "score": 0.2827911674976349
+        }
+      ]
+    },
+    {
+      "frame_index": 218,
+      "objects": [
+        {
+          "label": "object",
+          "bbox": [
+            0.0,
+            0.24993133544921875,
+            23.274784088134766,
+            43.89958190917969
+          ],
+          "score": 0.28043100237846375
+        }
+      ]
+    },
+    {
+      "frame_index": 219,
+      "objects": []
+    },
+    {
+      "frame_index": 220,
+      "objects": []
+    },
+    {
+      "frame_index": 221,
+      "objects": []
+    },
+    {
+      "frame_index": 222,
+      "objects": []
+    },
+    {
+      "frame_index": 223,
+      "objects": []
+    },
+    {
+      "frame_index": 224,
+      "objects": []
+    },
+    {
+      "frame_index": 225,
+      "objects": []
+    },
+    {
+      "frame_index": 226,
+      "objects": []
+    },
+    {
+      "frame_index": 227,
+      "objects": []
+    },
+    {
+      "frame_index": 228,
+      "objects": []
+    },
+    {
+      "frame_index": 229,
+      "objects": []
+    },
+    {
+      "frame_index": 230,
+      "objects": []
+    },
+    {
+      "frame_index": 231,
+      "objects": []
+    },
+    {
+      "frame_index": 232,
+      "objects": []
+    },
+    {
+      "frame_index": 233,
+      "objects": []
+    },
+    {
+      "frame_index": 234,
+      "objects": []
+    },
+    {
+      "frame_index": 235,
+      "objects": []
+    },
+    {
+      "frame_index": 236,
+      "objects": []
+    },
+    {
+      "frame_index": 237,
+      "objects": []
+    },
+    {
+      "frame_index": 238,
+      "objects": []
+    },
+    {
+      "frame_index": 239,
+      "objects": []
+    },
+    {
+      "frame_index": 240,
+      "objects": []
+    },
+    {
+      "frame_index": 241,
+      "objects": []
+    },
+    {
+      "frame_index": 242,
+      "objects": []
+    },
+    {
+      "frame_index": 243,
+      "objects": []
+    },
+    {
+      "frame_index": 244,
+      "objects": []
+    },
+    {
+      "frame_index": 245,
+      "objects": []
+    },
+    {
+      "frame_index": 246,
+      "objects": []
+    },
+    {
+      "frame_index": 247,
+      "objects": []
+    },
+    {
+      "frame_index": 248,
+      "objects": []
+    },
+    {
+      "frame_index": 249,
+      "objects": [
+        {
+          "label": "hole",
+          "bbox": [
+            20.973533630371094,
+            0.0075016021728515625,
+            70.68018341064453,
+            18.52124786376953
+          ],
+          "score": 0.2752750515937805
+        }
+      ]
+    }
+  ]
+}

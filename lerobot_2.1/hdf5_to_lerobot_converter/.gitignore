@@ -1,0 +1,7 @@
+# Ignore specific files and folders
+lerobot/
+train_dataset_12000_episodes/
+upload.py
+viewer.py
+trossen_data_viewer.py
+video_checker.py

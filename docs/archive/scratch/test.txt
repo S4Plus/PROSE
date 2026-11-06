@@ -1,0 +1,68 @@
+{'position': array([1.087, 2.645, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.137, 2.645, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.187, 2.645, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.237, 2.645, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.087, 2.695, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.137, 2.695, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.187, 2.695, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.237, 2.695, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.087, 2.745, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.137, 2.745, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.187, 2.745, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.237, 2.745, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.087, 2.795, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.137, 2.795, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.187, 2.795, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.237, 2.795, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.087, 2.845, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.137, 2.845, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.187, 2.845, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.237, 2.845, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.087, 2.895, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.137, 2.895, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.187, 2.895, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.237, 2.895, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.087, 2.945, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.137, 2.945, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.187, 2.945, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.237, 2.945, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.087, 2.995, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.137, 2.995, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.187, 2.995, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.237, 2.995, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.087, 3.045, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.137, 3.045, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.187, 3.045, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.237, 3.045, 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.087, 3.095, 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.137, 3.095, 0.9  ]), 'orientation': 0.0}
+{'position': array([1.187, 3.095, 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.237, 3.095, 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.062, 2.62 , 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.062, 3.12 , 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.112, 2.62 , 0.9  ]), 'orientation': 0.0}
+{'position': array([1.112, 3.12 , 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.162, 2.62 , 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.162, 3.12 , 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.212, 2.62 , 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.212, 3.12 , 0.9  ]), 'orientation': 0.0}
+{'position': array([1.262, 2.62 , 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.262, 3.12 , 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.062, 2.67 , 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.262, 2.67 , 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.062, 2.72 , 0.9  ]), 'orientation': 0.0}
+{'position': array([1.262, 2.72 , 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.062, 2.77 , 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.262, 2.77 , 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.062, 2.82 , 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.262, 2.82 , 0.9  ]), 'orientation': 0.0}
+{'position': array([1.062, 2.87 , 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.262, 2.87 , 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.062, 2.92 , 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.262, 2.92 , 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.062, 2.97 , 0.9  ]), 'orientation': 0.0}
+{'position': array([1.262, 2.97 , 0.9  ]), 'orientation': 0.39269908169872414}
+{'position': array([1.062, 3.02 , 0.9  ]), 'orientation': 0.7853981633974483}
+{'position': array([1.262, 3.02 , 0.9  ]), 'orientation': -0.7853981633974483}
+{'position': array([1.062, 3.07 , 0.9  ]), 'orientation': -0.39269908169872414}
+{'position': array([1.262, 3.07 , 0.9  ]), 'orientation': 0.0}

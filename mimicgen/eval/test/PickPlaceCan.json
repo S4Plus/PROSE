@@ -1,0 +1,669 @@
+{
+  "env_name": "PickPlaceCan",
+  "reference": [
+    0.1,
+    -0.25,
+    0.8
+  ],
+  "units": {
+    "position": "m",
+    "angle": "rad"
+  },
+  "seed": 2026,
+  "step": 0.05,
+  "include_boundary": true,
+  "bounds": {
+    "can": {
+      "x": [
+        -0.145,
+        0.145
+      ],
+      "y": [
+        -0.195,
+        0.195
+      ],
+      "z_rot": [
+        0.0,
+        0.0
+      ],
+      "rotation_axis": "z"
+    }
+  },
+  "counts": {
+    "grid": 35,
+    "boundary": 28,
+    "total": 63
+  },
+  "cases": [
+    {
+      "id": 0,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": -0.17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 1,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": -0.12,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 2,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": -0.07,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 3,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": -0.02,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 4,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": 0.03,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 5,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": 0.08,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 6,
+      "tag": "grid",
+      "can": {
+        "x": -0.12,
+        "y": 0.13,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 7,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": -0.17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 8,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": -0.12,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 9,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": -0.07,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 10,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": -0.02,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 11,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": 0.03,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 12,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": 0.08,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 13,
+      "tag": "grid",
+      "can": {
+        "x": -0.07,
+        "y": 0.13,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 14,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": -0.17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 15,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": -0.12,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 16,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": -0.07,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 17,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": -0.02,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 18,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": 0.03,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 19,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": 0.08,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 20,
+      "tag": "grid",
+      "can": {
+        "x": -0.02,
+        "y": 0.13,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 21,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": -0.17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 22,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": -0.12,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 23,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": -0.07,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 24,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": -0.02,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 25,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": 0.03,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 26,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": 0.08,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 27,
+      "tag": "grid",
+      "can": {
+        "x": 0.03,
+        "y": 0.13,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 28,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": -0.17,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 29,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": -0.12,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 30,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": -0.07,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 31,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": -0.02,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 32,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": 0.03,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 33,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": 0.08,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 34,
+      "tag": "grid",
+      "can": {
+        "x": 0.08,
+        "y": 0.13,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 35,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 36,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 37,
+      "tag": "boundary",
+      "can": {
+        "x": -0.095,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 38,
+      "tag": "boundary",
+      "can": {
+        "x": -0.095,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 39,
+      "tag": "boundary",
+      "can": {
+        "x": -0.045,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 40,
+      "tag": "boundary",
+      "can": {
+        "x": -0.045,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 41,
+      "tag": "boundary",
+      "can": {
+        "x": 0.005,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 42,
+      "tag": "boundary",
+      "can": {
+        "x": 0.005,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 43,
+      "tag": "boundary",
+      "can": {
+        "x": 0.055,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 44,
+      "tag": "boundary",
+      "can": {
+        "x": 0.055,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 45,
+      "tag": "boundary",
+      "can": {
+        "x": 0.105,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 46,
+      "tag": "boundary",
+      "can": {
+        "x": 0.105,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 47,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": -0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 48,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": 0.195,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 49,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": -0.145,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 50,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": -0.145,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 51,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": -0.095,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 52,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": -0.095,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 53,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": -0.045,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 54,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": -0.045,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 55,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": 0.005,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 56,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": 0.005,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 57,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": 0.055,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 58,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": 0.055,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 59,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": 0.105,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 60,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": 0.105,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 61,
+      "tag": "boundary",
+      "can": {
+        "x": -0.145,
+        "y": 0.155,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    },
+    {
+      "id": 62,
+      "tag": "boundary",
+      "can": {
+        "x": 0.145,
+        "y": 0.155,
+        "z_rot": 0.0,
+        "rotation_axis": "z"
+      }
+    }
+  ]
+}

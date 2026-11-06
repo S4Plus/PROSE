@@ -1,0 +1,8 @@
+# robosuite 1.4.1 uses the native mujoco Python package; separate from mujoco-py.
+numpy>=1.23,<2
+mujoco==3.2.6
+h5py>=3.7
+imageio>=2.22
+imageio-ffmpeg>=0.4
+Pillow>=9
+requests>=2

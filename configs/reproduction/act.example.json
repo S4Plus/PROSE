@@ -1,0 +1,16 @@
+{
+  "run_name": "can_mh",
+  "dataset_root": "datasets/lerobot/can_mh",
+  "dataset_repo_id": "local/can_mh",
+  "pretrained_dir": "outputs/can_mh/baseline/checkpoints/100000/pretrained_model",
+  "rollout_dir": "outputs/can_mh/rollouts/episodes",
+  "output_root": "outputs",
+  "seed": 42,
+  "device": "cuda",
+  "steps": 100000,
+  "batch_size": 32,
+  "num_workers": 4,
+  "window_size": 50,
+  "window_stride": 50,
+  "episode_drop_ratio": 0.1
+}

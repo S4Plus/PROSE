@@ -1,0 +1,11 @@
+repo_id: "mirrow/hdf5_dataset"
+raw_data_dir: "/home/mirrow/FlexUMI/dataset/pick_bootle"
+fps: 20
+resolution: [640, 360]
+image_writer_processes: 4
+image_writer_threads: 16
+
+# Batch processing configuration
+batch_size: 170
+validate_batch_size: true  # Set false to allow partial batches
+
